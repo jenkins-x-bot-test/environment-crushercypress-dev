@@ -1,0 +1,14 @@
+adminUser:
+  password: vault:crushercypress/adminUser:password
+  username: admin
+dashboardAuthID: vault:crushercypress:dashboardAuthID
+dashboardAuthOrg: arcalos-dashboard
+dashboardAuthSecret: vault:crushercypress:dashboardAuthSecret
+dashboardGrpchost: dex.jx
+enableDocker: false
+pipelineUser:
+  email: jenkins-x@googlegroups.com
+  token: vault:crushercypress/pipelineUser:token
+  username: jenkins-x-bot-test
+prow:
+  hmacToken: vault:crushercypress/prow:hmacToken
